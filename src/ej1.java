@@ -49,7 +49,7 @@ public class ej1 {
                 }
                 // Tanto si eliminé como si no, salto a la próxima zona
                 pos = fin + 1;
-
+//Test
             } else {
                 // corto el while
                 pos = MAXCOL;
