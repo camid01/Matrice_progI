@@ -37,7 +37,6 @@ public class ej7 {
             inicio = buscarInicio(arrFila,pos);
             if (inicio < MAXC){
                 fin = buscarFin(arrFila,inicio);
-                pos = fin + 1;
                 if (arrFila[inicio] < 0){
                     //int valor = abs(arrFila[inicio]);
                     //pasamos el valor a positivo
