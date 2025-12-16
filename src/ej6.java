@@ -38,10 +38,7 @@ public class ej6 {
                 int tamanioSec = fin - inicio +1;
                 //palabra = secuencia (encriptar una palabra seria encriptar la sec entera)
                 palabras++;
-
                 nuevoFin = encriptarPalabra(arrFila, inicio, fin, tamanioSec);
-
-
                 pos = nuevoFin + 1;
 
             }else{

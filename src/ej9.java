@@ -103,10 +103,11 @@ public class ej9 {
     private static double obtenerPromedio(int[] arrFila, int inicio, int fin) {
         double suma = 0;
         int cantidad = fin - inicio+1;
-        while (inicio < fin){
+        while (inicio <= fin){
             suma+=arrFila[inicio];
             inicio++;
         }
+        System.out.println(suma);
         return suma/cantidad;
     }
 
